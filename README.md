@@ -49,6 +49,17 @@ node test.js
 
 ```
 
+<h2>To use npm package:</h2>
+
+Type:
+<br>
+
+```
+npm i kuizu-geemu
+
+```
+
+
 
 
 
