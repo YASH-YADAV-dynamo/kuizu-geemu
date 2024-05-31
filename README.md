@@ -59,6 +59,16 @@ npm i kuizu-geemu
 
 ```
 
+## Sample images
+
+![image](https://github.com/YASH-YADAV-dynamo/kuizu-geemu/assets/147921735/33849a8a-4dcb-478e-a53b-2155483b97e7)
+
+![image](https://github.com/YASH-YADAV-dynamo/kuizu-geemu/assets/147921735/51b6cf70-f59c-4428-adb0-6cfd7f93ed3b)
+
+
+![image](https://github.com/YASH-YADAV-dynamo/kuizu-geemu/assets/147921735/7f20c61f-ae6f-4348-a678-3d8171a9d86e)
+
+
 
 
 
