@@ -70,9 +70,9 @@ async function welcome() {
     await sleep();
     rainbowTitle.stop();
     console.log(\`\${chalk.bgGreen('HOW TO PLAY')}
-    I am your virtual \${chalk.blue('interviewer')}. I will ask you some questions.
-    If you get any question wrong I will be \${chalk.red('killed')}
-    So pass the interview with all correct answers.....
+    I am your virtual \${chalk.blue('tester')}. I will ask you some questions.
+    If you get any question wrong I will be \${chalk.red('angry')}
+    So pass these questionare with all correct answers.....
 
     \`);
 }
@@ -96,9 +96,9 @@ async function handleAnswer(isCorrect) {
     await sleep();
 
     if (isCorrect) {
-        spinner.success({ text: \`Nice work \${playerName}! You are closer to the job!\` });
+        spinner.success({ text: \`Nice work \${playerName}! You are closer !\` });
     } else {
-        spinner.error({ text: \`HEHE! Sorry \${playerName}! You are not getting the job!\` });
+        spinner.error({ text: \`HEHE! Sorry \${playerName}! You made me angry !\` });
         await restartGame();
     }
 }
@@ -125,7 +125,7 @@ async function startGame() {
 
 function winner() {
     console.clear();
-    const msg = \`Congrats, \${playerName}! You are hired! \\n$ 1,000,000\`;
+    const msg = \`Congrats, \${playerName}! You won ! \\n \`;
 
     figlet(msg, (err, data) => {
         if (err) {
