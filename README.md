@@ -49,16 +49,6 @@ node test.js
 
 ```
 
-<h2>To use npm package:</h2>
-
-Type:
-<br>
-
-```
-npm i kuizu-geemu
-
-```
-
 ## Sample images
 
 ![image](https://github.com/YASH-YADAV-dynamo/kuizu-geemu/assets/147921735/33849a8a-4dcb-478e-a53b-2155483b97e7)
